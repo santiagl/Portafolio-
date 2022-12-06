@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/42abed8457.js" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="styles.css">
+	<title>Portafolio - SantiagoCharis</title>
+</head>
+
+<body>
+
+	<div class="contenedor">
+		<header>
+			<div class="logo">
+				<h1>Santiago Charis Montero</h1>
+				<p>Ibero Puebla</p>
+			</div>
+			<div class="cuadro">
+				<section id="sobremi">
+					<div class="sobremi">
+						<p class="titulo-seccion">Sobre Mi</p>
+						<h2>Hola, Soy <span>Santiago Charis Montero</span> </h2>
+						<h3>Ingenieria en Sistemas</h3>
+						<p>Les presento mi portafolio el cual no me costo tanto hacer
+							ya que anteriormente en mi preparatoria me pidieron hacer uno, lo cual estoy usando el
+							mismo.
+							Este portafolio incluye varias cosas entre ellas que es responsive,
+							tambien tiene agregado un filtrado de busqueda hecho mediante Javascript, al igual que el filtrado
+							de temas por menu, tambien agregue unos botones que te llevan a mis redes sociales, todos los colores,
+							tamaños, los objetos centrados y las fotos estan hecho en CSS.
+						</p>
+
+					</div>
+				</section>
+			</div>
+			<form action="">
+				<input type="text" class="barra-busqueda" id="barra-busqueda" placeholder="Buscar...">
+			</form>
+			<div class="categorias" id="categorias">
+				<a href="#" class="activo">Todos</a>
+				<a href="#">Tema1</a>
+				<a href="#">Tema2</a>
+				<a href="#">Tema3</a>
+				<a href="#">Tema4</a>
+				<a href="#">Tema5</a>
+				<a href="#">Tema6</a>
+			</div>
+
+		</header>
+
+		<section class="grid" id="grid">
+			<div class="item" data-categoria="tema1" data-etiquetas="ingenieria sistemas tema1"
+				data-descripcion="-Adentrandonos a La Ingenieria en Sistemas Computacionales.">
+				<div class="item-contenido">
+					<img src="img/im1.png" alt="">
+					<a href="pdfs/intro.pdf" class="btn" target="__blank">Introduccion.pdf</a>
+				</div>
+			</div>
+
+
+
+			<div class="item" data-categoria="tema2" data-etiquetas="desarrollo web tema2"
+				data-descripcion="-Que es el desarrollo web?.">
+				<div class="item-contenido">
+					<img src="img/im3.png" alt="">
+					<a href="pdfs/desarrolloweb.pdf" class="btn" target="__blank">DesarrolloWeb.pdf</a>
+				</div>
+			</div>
+
+
+
+			<div class="item" data-categoria="tema1" data-etiquetas="tarea1 stackoverflow investigacion tema1"
+				data-descripcion="-Investigacion acerca de Stackoverflow.">
+				<div class="item-contenido">
+					<img src="img/im2.png" alt="">
+					<a href="pdfs/Tarea-IaIeSC.pdf" class="btn" target="__blank">Tarea.pdf</a>
+				</div>
+			</div>
+
+			<div class="item" data-categoria="tema2" data-etiquetas="js html css desarrollo web tema2"
+				data-descripcion="-Actividad: Investigar acerca de HTML, CSS y JavaScript .">
+				<div class="item-contenido">
+					<img src="img/im5.png" alt="">
+					<a href="pdfs/css,etc.pdf" class="btn" target="__blank">Actividad.pdf</a>
+
+				</div>
+			</div>
+
+
+			<div class="item" data-categoria="tema2" data-etiquetas="sitio web tarea2 tema2"
+				data-descripcion="-Sitio web sitio web informativo sobre ti.">
+				<div class="item-contenido">
+					<img src="img/im4.png" alt="">
+					<a href="web2/index2.html" class="btn" target="__blank">IR al sitio</a>
+				</div>
+			</div>
+
+			<div class="item" data-categoria="tema6" data-etiquetas="ia lenguajes de programacion tecnologias tema6"
+			data-descripcion="-Algunos lenguajes de programacion.">
+			<div class="item-contenido">
+				<img src="img/im14.png" alt="">
+				<a href="https://teachablemachine.withgoogle.com/models/DrUx1J0td/" class="btn"
+					target="__blank">ir al sitio</a>
+			</div>
+		</div>
+
+			<div class="item" data-categoria="tema3" data-etiquetas="era digital tema3 tarea3"
+				data-descripcion="-Sitio web sitio web informativo sobre ti implementando Boostrap.">
+				<div class="item-contenido">
+					<img src="img/im6.png" alt="">
+					<a href="web3/index.html" class="btn" target="__blank">IR al sitio</a>
+				</div>
+			</div>
+
+			<div class="item" data-categoria="tema6" data-etiquetas="c++ lenguajes c++  tema6"
+				data-descripcion="-Actividad: Algoritmo para calsificar triangulos.">
+				<div class="item-contenido">
+					<img src="img/im13.png" alt="">
+					<a href="pdfs/Santii.pdf" class="btn" target="__blank">actividad.cpp</a>
+				</div>
+			</div>
+
+
+			<div class="item" data-categoria="tema4" data-etiquetas="portafolio web tema4"
+				data-descripcion="-Que es un portafolio web?.">
+
+				<div class="item-contenido">
+					<img src="img/im7.png" alt="">
+					<a href="pdfs/¿Qué es un portafolio web.pdf" class="btn" target="__blank">portafolio.pdf</a>
+				</div>
+			</div>
+
+
+
+			<div class="item" data-categoria="tema4" data-etiquetas="actividad4 tarea4 crear portafolio web tema4"
+				data-descripcion="-Actividad: Primer repositorio.">
+				<div class="item-contenido">
+					<img src="img/im8.png" alt="">
+					<a href="https://github.com/santiagl/Portafolio_web" class="btn" target="__blank">github</a>
+				</div>
+			</div>
+
+
+
+			<div class="item" data-categoria="tema6" data-etiquetas="lenguajes de programacion tecnologias tema6"
+				data-descripcion="-Algunos lenguajes de programacion.">
+				<div class="item-contenido">
+					<img src="img/im9.png" alt="">
+					<a href="pdfs/Lenguajes de programación y tecnologías.pdf" class="btn"
+						target="__blank">lenguajes.pdf</a>
+				</div>
+			</div>
+
+			
+
+
+
+			<div class="item" data-categoria="tema6"
+				data-etiquetas="tema6 lenguajes frameworks biblotecas tecnologias tarea6"
+				data-descripcion="-Investiga qué lenguajes, frameworks, bibliotecas, tecnologías utilizan algunos de las principales aplicaciones que usamos.">
+				<div class="item-contenido">
+					<img src="img/im10.png" alt="">
+					<a href="pdfs/Facebook (1).pdf" class="btn" target="__blank">tarea.pdf</a>
+				</div>
+			</div>
+
+
+
+			<div class="item" data-categoria="tema6" data-etiquetas="frameworks biblotecas tema6"
+				data-descripcion="-Acerca de Frameworks y Biblotecas.">
+				<div class="item-contenido">
+					<img src="img/im11.png" alt="">
+					<a href="pdfs/Lenguajes de programación y tecnologías.pdf" class="btn"
+						target="__blank">lenguajes.pdf</a>
+				</div>
+			</div>
+
+
+			<div class="item" data-categoria="tema5"
+				data-etiquetas="tema5 repositorio introduccionalcontrol github tema5"
+				data-descripcion="-Adentrandonos mas a github.">
+				<div class="item-contenido">
+					<img src="img/im12.png" alt="">
+					<a href="pdfs/Introducción al control de versiones gitgithub (1).pdf" class="btn"
+						target="__blank">Github.pdf</a>
+				</div>
+			</div>
+
+
+
+		</section>
+
+		<section class="overlay" id="overlay">
+			<div class="contenedor-img">
+				<button id="btn-cerrar-popup"><i class="fa-sharp fa-solid fa-circle-xmark"></i></button>
+				<img src="" alt="">
+			</div>
+			<p class="descripcion"></p>
+		</section>
+
+		<footer class="contenedor">
+			<div class="redes-sociales">
+				<div class="contenedor-icono">
+					<a href="http://www.facebook.com/falconmasters" target="_blank" class="facebook">
+						<i class="fab fa-facebook-f"></i>
+					</a>
+				</div>
+				<div class="contenedor-icono">
+					<a href="https://www.instagram.com/santi_monter0/" target="_blank" class="instagram">
+						<i class="fab fa-instagram"></i>
+					</a>
+				</div>
+			</div>
+			
+		</footer>
+	
+	</div>
+	
+	<script src="https://cdn.jsdelivr.net/npm/web-animations-js@2.3.2/web-animations.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/npm/muuri@0.9.5/dist/muuri.min.js"></script>
+	<script src="main.js"></script>
+</body>
+
+</html>
